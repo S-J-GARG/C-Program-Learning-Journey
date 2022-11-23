@@ -8,7 +8,8 @@ while( x !=0){
     y +=x%10;
     x=x/10;
 }
-   /* y = x/1000 + (x%1000)/100+ (((x%1000)%100)+9*(((x%1000)%100))%10)/10; This is worng
+  // My idea to solve it
+    /* y = x/1000 + (x%1000)/100+ (((x%1000)%100)+9*(((x%1000)%100))%10)/10; This is worng
    */
 
     printf("The sum of its digits is:%d\n",y);
