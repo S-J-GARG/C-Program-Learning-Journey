@@ -8,11 +8,11 @@ int main()
     scanf("%d",&shyam);
     printf("Enter the age of Ajay:\n");
     scanf("%d",&ajay);
-    /*if(ram<shyam<ajay)*/
+   
     if(ram<=shyam&&shyam<=ajay)
    { printf("Ram is youngest.\n");}
     else
-    /*if(shyam<ajay<ram)*/
+   
     {
         if(shyam<=ajay&&ajay<=ram)
     {printf("Shyam is youngest.");}
