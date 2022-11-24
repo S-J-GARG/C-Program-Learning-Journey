@@ -61,6 +61,7 @@ int main()
          //printf("Do you want to check for another number ? type 'n'. \n");
          //fflush(stdin);
          //scanf("%c",&c);
+        // fflush(stdin) now don't needed
         
     } 
         
